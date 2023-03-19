@@ -24,9 +24,11 @@ You can install the required packages using pip:
 To use this system, follow these steps:
 
      Clone or download the project from GitHub.
+     
      $ git clone https://github.com/dineshgopal369/Network-traffic-analysis-and-Alerting-system
 
      Open a terminal window and navigate to the project directory.
+     
      $ cd Network-traffic-analysis-and-Alerting-system
 
      Run the traffic_analysis.py script using the command python traffic_analysis.py. This script will read the network traffic from a PCAP file and filter      packets based on specific IP addresses, ports, and protocols. The filtered packets will then be extracted and saved to a database.
