@@ -2,7 +2,7 @@
 
 This project is an implementation of a network traffic analysis and alerting system using Python and Scapy library. The system filters network packets based on specific IP addresses, ports, and protocols, and saves the relevant packets in a database. It also alerts the system administrator via email if certain conditions are met, such as if a ip is found in a pool of blacklisted ip's or a specific port number or a specific protocol or large packet size is detected.
 
-#Requirements
+# Requirements
 
 To use this system, you will need the following:
 
@@ -16,9 +16,10 @@ To use this system, you will need the following:
     Tabulate
 
 You can install the required packages using pip:
+
 pip install scapy pybloom_live mariadb email smtplib logging tabulate
 
-#Usage
+# Usage
 
 To use this system, follow these steps:
 
