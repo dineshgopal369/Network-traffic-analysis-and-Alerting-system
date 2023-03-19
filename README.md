@@ -6,15 +6,15 @@ This project is an implementation of a network traffic analysis and alerting sys
 
 To use this system, you will need the following:
 
-   Python 3.6 or higher
-   Scapy
-   Pybloom_live
-   Mariadb
-   os
-   ssl
-   Email
-   Smtplib
-   Logging
+   Python 3.6 or higher,
+   Scapy,
+   Pybloom_live,
+   Mariadb,
+   os,
+   ssl,
+   Email,
+   Smtplib,
+   Logging,
    Tabulate
 
 You can install the required packages using pip:
@@ -36,5 +36,8 @@ To use this system, follow these steps:
   Run the traffic_analysis.py script using the command
 
      $ python traffic-analysis.py
-     
+   
+# Contributing
+
+If you wish to contribute to the project, you can submit a pull request with your changes.
 
