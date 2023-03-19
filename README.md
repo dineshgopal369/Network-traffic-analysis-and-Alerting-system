@@ -6,14 +6,14 @@ This project is an implementation of a network traffic analysis and alerting sys
 
 To use this system, you will need the following:
 
-  Python 3.6 or higher
-  Scapy
-  Pybloom_live
-  Mariadb
-  Email
-  Smtplib
-  Logging
-  Tabulate
+Python 3.6 or higher
+Scapy
+Pybloom_live
+Mariadb
+Email
+Smtplib
+Logging
+Tabulate
 
 You can install the required packages using pip:
 
