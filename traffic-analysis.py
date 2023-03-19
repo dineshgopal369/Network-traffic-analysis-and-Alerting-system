@@ -108,7 +108,7 @@ def insert_packets_to_database(filtered_packets):
                             cursor.execute(select_query, packet)
                             if cursor.fetchone() is None:
                                 values.append(packet)
-                        # insert batch of unique packets into the database
+                    # insert batch of unique packets into the database
                     if values:
                         cursor.executemany(insert_query, values)
                         connection.commit()
