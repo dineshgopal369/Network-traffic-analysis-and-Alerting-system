@@ -1,6 +1,7 @@
-#Database used  Mariadb
-To get started, you will need to create a new database.
-Once the database is created, you need to create a table within it.
-The structure of the table should match the schema provided in the file "database table schema.png".
-After creating the table, you will need to provide your credentials in the "database" section of the "traffic.py" file.
-Specifically, you should enter your username and database name.
+Markup: # Database used  Mariadb #
+Markup : * Bullet list
+  To get started, you will need to create a new database.
+  Once the database is created, you need to create a table within it.
+  The structure of the table should match the schema provided in the file "database table schema.png".
+  After creating the table, you will need to provide your credentials in the "database" section of the "traffic.py" file.
+  Specifically, you should enter your username and database name.
