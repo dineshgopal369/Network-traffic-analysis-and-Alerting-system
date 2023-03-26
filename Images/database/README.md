@@ -1,4 +1,4 @@
-Network Traffic Analysis and Alerting System
+Markup: # Network Traffic Analysis and Alerting System #
 
 This project utilizes Mariadb as its database management system. In order to get started, you will need to follow the steps below:
 
