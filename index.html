@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PCAP Filter</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f8f9fa;
+			padding: 50px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			min-height: 100vh;
+		}
+		h1 {
+			font-size: 36px;
+			margin-bottom: 20px;
+			color: #343a40;
+			text-align: center;
+		}
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			background-color: #fff;
+			padding: 30px;
+			border-radius: 5px;
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+		}
+		label {
+			font-size: 18px;
+			margin-bottom: 10px;
+			color: #343a40;
+			font-weight: bold;
+			text-align: center;
+		}
+		input[type="file"] {
+			font-size: 16px;
+			padding: 10px 15px;
+			border-radius: 5px;
+			border: none;
+			background-color: #f2f2f2;
+			color: #343a40;
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+			width: 100%;
+			max-width: 400px;
+			margin-bottom: 20px;
+		}
+		input[type="submit"] {
+			background-color: #16e00b;
+			color: #fff;
+			font-size: 16px;
+			font-weight: bold;
+			padding: 10px 20px;
+			border-radius: 5px;
+			border: none;
+			cursor: pointer;
+			transition: background-color 0.2s ease;
+			margin-bottom: 10px;
+			width: 100%;
+			max-width: 400px;
+		}
+		input[type="submit"]:hover {
+			background-color: #16e00b;
+		}
+		.upload-icon {
+			font-size: 48px;
+			color: #343a40;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Network Traffic Analysis and Alerting System </h1>
+	<form action="/filter_packets" method="POST" enctype="multipart/form-data">
+		<label for="pcap_file">Select a PCAP file to upload:</label>
+		<div class="upload-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+		<input type="file" id="pcap_file" name="pcap_file">
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
